@@ -1,0 +1,101 @@
+
+.survey-form-header-name {
+    font-size: 22px;
+    font-weight: 300;
+    display: inline-block;
+    margin: 20px auto 10px;
+}
+
+.rate-range-button {
+    border: 1px solid #b1adad;
+    border-radius: 3px;
+    height: 40px;
+    width: 60px;
+    margin: 10px 10px 10px 10px;
+    background-color: #fff;
+}
+
+.selectedButton {
+    height: 40px;
+    width: 60px;
+    background-color: #2a9381;
+}
+
+.rate-range-button:hover {
+    border: 2px solid #2a9359;
+    text-shadow: 1px 1px 1px  #222936;
+}
+
+.range-labels-text {
+    margin-top: 5px;
+    color: #222936;
+    display: flex;
+    flex-direction: row-reverse;
+    line-height: 20px;
+}
+
+.range-labels-text-max {
+    text-align: right;
+    display:inline-block;
+}
+
+.range-labels-text-min {
+    text-align: left;
+    display:inline-block;
+    min-width:785px;
+}
+
+.selected {
+    background-color: #2a9381;
+}
+
+.field-label-required {
+    margin-left: 5px;
+    color: tomato;
+}
+
+
+.survey-form-submit {
+    text-align: center;
+    background: #0d3b70;
+    color: #fff;
+    padding: 30px;
+}
+
+.survey-question-label {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.25;
+    letter-spacing: .3px;
+    display: block;
+    margin: 0 0 20px;
+    cursor: pointer;
+    color: #1e2430;
+}
+
+.survey-form-submit-button {
+    width: 220px;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 30px;
+    border: 1px solid #fff;
+    background-color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    color: #0d3b70;
+    position: relative;
+}
+.survey-form-submit-button:hover {
+    color: #fff;
+    background: #0d3b70;
+}
+
+.textarea-size{
+    width: 500px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
