@@ -1,12 +1,11 @@
 import React, { Component } from "react";
 import axios from "axios";
 import history from "../../history";
-import { surveyTitle } from "../Constant";
+import { surveyTitle, ratings } from "../Constant";
 import "../SurveyFormCommon.css";
 
 export class SurveyForm1 extends Component {
   question = "";
-  ratings = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
   constructor(props) {
     super(props);
     this.state = {
@@ -19,7 +18,7 @@ export class SurveyForm1 extends Component {
   }
 
   renderRating = () =>
-    this.ratings.map((val) => (
+    ratings.map((val) => (
       <button
         key={val}
         className={
